@@ -351,3 +351,79 @@ template {
 body {
   font-family: "Nunito", sans-serif;
 }
+
+section {
+  padding: 50px 0;
+}
+section .section_header .section_title {
+  font-size: 1.7rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+footer {
+  text-align: center;
+  margin: 1rem 0;
+  letter-spacing: 0.5px;
+}
+
+/********** Header **********/
+header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+header .brand {
+  flex: 1;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+header .navbar {
+  flex: 9;
+}
+header .navbar .nav {
+  margin-left: 10rem;
+}
+header .navbar .nav a {
+  margin: 0 2rem;
+  font-size: 1.1rem;
+  color: #333;
+}
+header .navbar .nav a:hover {
+  text-decoration: none;
+}
+
+section .articles_list .article {
+  padding: 0.6rem 0;
+  padding-left: 0.5rem;
+  border-bottom: 1px solid #f3f3f3;
+}
+section .articles_list .article:hover {
+  background-color: #f3f3f3;
+}
+section .articles_list .article a:hover {
+  text-decoration: none;
+}
+section .articles_list .article .title {
+  color: #333;
+  font-weight: 500;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+section .load_more_articles {
+  padding: 0.6rem 0.8rem;
+  display: inline-block;
+  background-color: #f3f3f3;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  color: #4e4e4e;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 1rem;
+}
+section .load_more_articles:hover {
+  text-decoration: none;
+  background-color: #e2e2e2;
+}
